@@ -23,8 +23,8 @@ class BankBranch {
     return this.branchInfo;
   }
 }
-const bankBranchA = new BankBranch(this.branchInfo);
-const bankBranchB = new BankBranch(this.branchInfo);
+const bankBranchA = new BankBranch("Area A");
+const bankBranchB = new BankBranch("Area B");
 if (bankBranchA === bankBranchB) {
   return true;
 }

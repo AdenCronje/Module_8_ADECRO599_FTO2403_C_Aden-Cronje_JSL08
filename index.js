@@ -26,7 +26,7 @@ class BankBranch {
 const bankBranchA = new BankBranch("Area A");
 const bankBranchB = new BankBranch("Area B");
 if (bankBranchA === bankBranchB) {
-  return true;
+  console.log("They're the same instance");
 }
 // 5. In the usage section:
 //    - Create instances of the `BankBranch` class, such as `branchA` and `branchB`, with different branch information.
